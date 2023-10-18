@@ -227,3 +227,97 @@ footer h4 {
     color: var(--main-color-2);
     padding: 0px 8px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(../img/undraw_fashion_blogging_re_fhi5.svg);
+        background-repeat: no-repeat;
+        background-position: 9rem 16rem;
+        background-size: 15rem;
+        position: relative;
+    }
+
+    .navbar {
+        width: 100%;
+        position: fixed;
+    }
+
+    .col:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .header-title {
+        display: flex;
+        position: absolute;
+        top: 0;
+        font-size: 65px;
+        font-weight: bolder;
+        color: var(--secondary-color);
+        margin-top: 16rem;
+        margin-left: 3rem;
+    }
+
+    .container .row .col img {
+        display: none;
+    }
+
+    .hero-btn-group {
+        position: absolute;
+        top: 0;
+        margin-top: 39rem;
+        display: grid;
+        grid-row: 2;
+        grid-column: auto;
+    }
+
+    .hero-btn-group .btn-primary {
+        font-size: small;
+        margin: 4px;
+    }
+
+    .hero-btn-group .btn-secondary {
+        font-size: small;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 3rem;
+        width: 100%;
+        z-index: -999;
+    }
+
+    footer .brand {
+        margin-left: 1px;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+    footer h4 {
+        font-size: 12px;
+    }
+
+    footer .social-group {
+        margin-right: 15px;
+        margin-top: -120px;
+        display: list-item;
+        list-style-type: none;
+
+    }
+
+    footer .social-group a {
+        color: var(--main-color-2);
+        list-style-type: none;
+        display: list-item;
+        padding: 5px;
+    }
+
+    footer .social-group a svg {
+
+        color: var(--secondary-color);
+    }
+}
