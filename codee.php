@@ -1,4 +1,8 @@
-      Simple Login with PHP
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>
+            Simple Login with PHP
         </title>
     </head>
     <body>
@@ -24,11 +28,7 @@
 
         </form>
 
-    </body><html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <title>
-      
+    </body>      
 </html>
 
 <?php
